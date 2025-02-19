@@ -6,12 +6,20 @@ In this way, the performer’s response becomes a reaction to the modification o
 Quick Start
 
 This application is a Max document (Cycling74.com)
+
 	1.	Start by clearing (sending the ‘clear’ message) and then loading a folder of files by dragging it onto the umenu attached to each agent. The folder can contain any PCM audio files. Make sure the folder is located in a path known to Max and contains only the files you wish to improvise with.
+ 
 	2.	Activate the server and the agents by pressing [initialize].
+ 
 	3.	Adjust the audio input for channel 1 and its reverb. This is the input for the human performer.
+ 
 	4.	If you want some assistance with your improvisation, you can load an initial sound into the [[playlist~]] object connected to [[send~ inptspf2]].
+ 
 	5.	Adjust the reverb amount for each agent.
+ 
 	6.	Configure the influence matrix as you like. This allows you to decide which agents influence each other.
+ 
 	7.	To configure the audio output across multiple channels, you can open [[p “salidas de los agentes a ambisonics”]]. There are two options: 2D and 3D. These can be activated using the messages [;en3D bang] and [;en2D bang].
+ 
 	8.	Press the [inicioautomatico] message and start playing.
 
